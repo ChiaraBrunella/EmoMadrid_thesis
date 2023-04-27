@@ -1,0 +1,552 @@
+@article{andreu2018effects,
+  title={Effects of a brief mindfulness-meditation intervention on neural measures of response inhibition in cigarette smokers},
+  author={Andreu, Catherine I and Cosmelli, Diego and Slagter, Heleen A and Franken, Ingmar HA},
+  journal={PloS one},
+  volume={13},
+  number={1},
+  pages={e0191661},
+  year={2018},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{km2015multimodal,
+  title={A multimodal approach to detect user's emotion},
+  author={KM, Anil Kumar and Kiran, BR and Shreyas, BR and Victor, Sylvester J},
+  journal={Procedia Computer Science},
+  volume={70},
+  pages={296--303},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{bex2002spatial,
+  title={Spatial frequency, phase, and the contrast of natural images},
+  author={Bex, Peter J and Makous, Walter},
+  journal={JOSA A},
+  volume={19},
+  number={6},
+  pages={1096--1106},
+  year={2002},
+  publisher={Optica Publishing Group}
+}
+
+@article{bradley2001emotion,
+  title={Emotion and motivation II: sex differences in picture processing.},
+  author={Bradley, Margaret M and Codispoti, Maurizio and Sabatinelli, Dean and Lang, Peter J},
+  journal={Emotion},
+  volume={1},
+  number={3},
+  pages={300},
+  year={2001},
+  publisher={American Psychological Association}
+}
+
+@article{bradley2007brain,
+  title={Brain potentials in perception: picture complexity and emotional arousal},
+  author={Bradley, Margaret M and Hamby, Steven and L{\"o}w, Andreas and Lang, Peter J},
+  journal={Psychophysiology},
+  volume={44},
+  number={3},
+  pages={364--373},
+  year={2007},
+  publisher={Wiley Online Library}
+}
+
+@article{lang2007international,
+  title={The International Affective Picture System (IAPS) in the study of emotion and attention},
+  author={Lang, Peter and Bradley, Margaret M},
+  journal={Handbook of emotion elicitation and assessment},
+  volume={29},
+  pages={70--73},
+  year={2007}
+}
+
+@article{berinsky2012evaluating,
+  title={Evaluating online labor markets for experimental research: Amazon. com's Mechanical Turk},
+  author={Berinsky, Adam J and Huber, Gregory A and Lenz, Gabriel S},
+  journal={Political analysis},
+  volume={20},
+  number={3},
+  pages={351--368},
+  year={2012},
+  publisher={Cambridge University Press}
+}
+
+@article{carboni2017influence,
+  title={The influence of affective state on exogenous attention to emotional distractors: behavioral and electrophysiological correlates},
+  author={Carboni, Alejandra and Kessel, Dominique and Capilla, Almudena and Carreti{\'e}, Luis},
+  journal={Scientific reports},
+  volume={7},
+  number={1},
+  pages={8068},
+  year={2017},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{carretie2013exogenous,
+  title={Exogenous attention to facial vs non-facial emotional visual stimuli},
+  author={Carreti{\'e}, Luis and Kessel, Dominique and Carboni, Alejandra and L{\'o}pez-Mart{\'\i}n, Sara and Albert, Jacobo and Tapia, Manuel and Mercado, Francisco and Capilla, Almudena and Hinojosa, Jos{\'e} A},
+  journal={Social Cognitive and Affective Neuroscience},
+  volume={8},
+  number={7},
+  pages={764--773},
+  year={2013},
+  publisher={Oxford University Press}
+}
+
+@article{carretie2011decomposing,
+  title={Decomposing unpleasantness: Differential exogenous attention to disgusting and fearful stimuli},
+  author={Carreti{\'e}, L and Ruiz-Padial, E and L{\'o}pez-Mart{\'\i}n, S and Albert, J},
+  journal={Biological psychology},
+  volume={86},
+  number={3},
+  pages={247--253},
+  year={2011},
+  publisher={Elsevier}
+}
+
+@article{carretie2019emomadrid,
+  title={EmoMadrid: An emotional pictures database for affect research},
+  author={Carreti{\'e}, Luis and Tapia, Manuel and L{\'o}pez-Mart{\'\i}n, Sara and Albert, Jacobo},
+  journal={Motivation and Emotion},
+  volume={43},
+  pages={929--939},
+  year={2019},
+  publisher={Springer}
+}
+
+@article{codispoti2007arousal,
+  title={Arousal and attention: Picture size and emotional reactions},
+  author={Codispoti, Maurizio and De Cesarei, Andrea},
+  journal={Psychophysiology},
+  volume={44},
+  number={5},
+  pages={680--686},
+  year={2007},
+  publisher={Wiley Online Library}
+}
+
+@article{codispoti2009unmasking,
+  title={Unmasking emotion: Exposure duration and emotional engagement},
+  author={Codispoti, Maurizio and Mazzetti, Michela and Bradley, Margaret M},
+  journal={Psychophysiology},
+  volume={46},
+  number={4},
+  pages={731--738},
+  year={2009},
+  publisher={Wiley Online Library}
+}
+
+@article{dan2011geneva,
+  title={The Geneva affective picture database (GAPED): a new 730-picture database focusing on valence and normative significance},
+  author={Dan-Glauser, Elise S and Scherer, Klaus R},
+  journal={Behavior research methods},
+  volume={43},
+  pages={468--477},
+  year={2011},
+  publisher={Springer}
+}
+
+@article{deak2010hungarian,
+  title={Hungarian ratings for the International Affective Picture System (IAPS): A cross-cultural comparison},
+  author={De{\'a}k, Anita and Csenki, Laura and R{\'e}v{\'e}sz, Gy{\"o}rgy},
+  journal={Empirical Text and Culture Research},
+  volume={4},
+  number={8},
+  pages={90--101},
+  year={2010}
+}
+
+@article{delplanque2007spatial,
+  title={Spatial frequencies or emotional effects?: A systematic measure of spatial frequencies for IAPS pictures by a discrete wavelet analysis},
+  author={Delplanque, Sylvain and N’diaye, Karim and Scherer, Klaus and Grandjean, Didier},
+  journal={Journal of neuroscience methods},
+  volume={165},
+  number={1},
+  pages={144--150},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@article{dufey2011adding,
+  title={Adding support to cross-cultural emotional assessment: Validation of the International Affective Picture System in a Chilean sample},
+  author={Dufey, Michele and FERN{\'A}NDEZ, ANA and Mayol, Roc{\'\i}o},
+  journal={Universitas psychologica},
+  volume={10},
+  number={2},
+  pages={521--533},
+  year={2011},
+  publisher={Pontificia Universidad Javeriana}
+}
+
+@article{greenwald1989affective,
+  title={Affective judgment and psychophysiological response: dimensional covariation in the evaluation of pictorial stimuli.},
+  author={Greenwald, Mark K and Cook, Edwin W and Lang, Peter J},
+  journal={Journal of psychophysiology},
+  year={1989},
+  publisher={Hogrefe \& Huber Publishers}
+}
+
+@article{gruhn2008age,
+  title={Age-related differences in valence and arousal ratings of pictures from the International Affective Picture System (IAPS): Do ratings become more extreme with age?},
+  author={Gr{\"u}hn, Daniel and Scheibe, Susanne},
+  journal={Behavior Research Methods},
+  volume={40},
+  pages={512--521},
+  year={2008},
+  publisher={Springer}
+}
+
+@book{haxby2011distributed,
+  title={Distributed neural systems for face perception},
+  author={Haxby, James V and Gobbini, M Ida},
+  year={2011},
+  publisher={The Oxford handbook of face perception}
+}
+
+@article{kosonogov2016social,
+  title={Social stimuli increase physiological reactivity but not defensive responses},
+  author={Kosonogov, Vladimir and Sanchez-Navarro, Juan Pedro and Martinez-Selva, Jose Maria and Torrente, Ginesa and Carrillo-Verdejo, Eduvigis},
+  journal={Scandinavian journal of psychology},
+  volume={57},
+  number={5},
+  pages={393--398},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+
+@article{kurdi2017introducing,
+  title={Introducing the open affective standardized image set (OASIS)},
+  author={Kurdi, Benedek and Lozano, Shayn and Banaji, Mahzarin R},
+  journal={Behavior research methods},
+  volume={49},
+  pages={457--470},
+  year={2017},
+  publisher={Springer}
+}
+
+@article{lakens2013brightness,
+  title={Brightness differences influence the evaluation of affective pictures},
+  author={Lakens, Dani{\"e}l and Fockenberg, Daniel A and Lemmens, Karin PH and Ham, Jaap and Midden, Cees JH},
+  journal={Cognition \& emotion},
+  volume={27},
+  number={7},
+  pages={1225--1246},
+  year={2013},
+  publisher={Taylor \& Francis}
+}
+
+@article{lang1993looking,
+  title={Looking at pictures: Affective, facial, visceral, and behavioral reactions},
+  author={Lang, Peter J and Greenwald, Mark K and Bradley, Margaret M and Hamm, Alfons O},
+  journal={Psychophysiology},
+  volume={30},
+  number={3},
+  pages={261--273},
+  year={1993},
+  publisher={Wiley Online Library}
+}
+
+@article{lang1997international,
+  title={International affective picture system (IAPS): Technical manual and affective ratings},
+  author={Lang, Peter J and Bradley, Margaret M and Cuthbert, Bruce N and others},
+  journal={NIMH Center for the Study of Emotion and Attention},
+  volume={1},
+  number={39-58},
+  pages={3},
+  year={1997},
+  publisher={Gainesville, FL.}
+}
+
+@book{lang2005international,
+  title={International affective picture system (IAPS): Affective ratings of pictures and instruction manual},
+  author={Lang, Peter J and Bradley, Margaret M and Cuthbert, Bruce N and others},
+  year={2005},
+  publisher={NIMH, Center for the Study of Emotion \& Attention Gainesville, FL}
+}
+
+@article{lasaitis2008brazilian,
+  title={Brazilian norms for the International Affective Picture System (IAPS): comparison of the affective ratings for new stimuli between Brazilian and North-American subjects},
+  author={Lasaitis, Cristina and Ribeiro, Rafaela Larsen and Bueno, Orlando Francisco Amodeo},
+  journal={Jornal Brasileiro de Psiquiatria},
+  volume={57},
+  pages={270--275},
+  year={2008},
+  publisher={SciELO Brasil}
+}
+
+@article{lohani2013cross,
+  title={Cross-cultural evaluation of the International Affective Picture System on an Indian sample},
+  author={Lohani, Monika and Gupta, Rashmi and Srinivasan, Narayanan},
+  journal={Psychological Studies},
+  volume={58},
+  pages={233--241},
+  year={2013},
+  publisher={Springer}
+}
+
+@article{lopez2015emotional,
+  title={Emotional response inhibition in children with attention-deficit/hyperactivity disorder: neural and behavioural data},
+  author={L{\'o}pez-Mart{\'\i}n, S and Albert, J and Fern{\'a}ndez-Ja{\'e}n, A and Carreti{\'e}, L},
+  journal={Psychological medicine},
+  volume={45},
+  number={10},
+  pages={2057--2071},
+  year={2015},
+  publisher={Cambridge University Press}
+}
+
+@article{lorenz1943angeborenen,
+  title={Die angeborenen formen m{\"o}glicher erfahrung},
+  author={Lorenz, Konrad},
+  journal={Zeitschrift f{\"u}r Tierpsychologie},
+  volume={5},
+  number={2},
+  pages={235--409},
+  year={1943},
+  publisher={Wiley Online Library}
+}
+
+@article{marchewka2014nencki,
+  title={The Nencki Affective Picture System (NAPS): Introduction to a novel, standardized, wide-range, high-quality, realistic picture database},
+  author={Marchewka, Artur and {\.Z}urawski, {\L}ukasz and Jednor{\'o}g, Katarzyna and Grabowska, Anna},
+  journal={Behavior research methods},
+  volume={46},
+  pages={596--610},
+  year={2014},
+  publisher={Springer}
+}
+
+@article{mavratzakis2016emotional,
+  title={Emotional facial expressions evoke faster orienting responses, but weaker emotional responses at neural and behavioural levels compared to scenes: A simultaneous EEG and facial EMG study},
+  author={Mavratzakis, Aimee and Herbert, Cornelia and Walla, Peter},
+  journal={Neuroimage},
+  volume={124},
+  pages={931--946},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{mel2018fmri,
+  title={fMRI responses in healthy individuals and in patients with mild depression to presentation of pleasant and unpleasant images},
+  author={Mel’nikov, ME and Petrovskii, ED and Bezmaternykh, DD and Kozlova, LI and Shtark, MB and Savelov, AA and Shubina, OS and Natarova, KA},
+  journal={Bulletin of Experimental Biology and Medicine},
+  volume={164},
+  pages={601--604},
+  year={2018},
+  publisher={Springer}
+}
+
+@article{michalowski2017set,
+  title={The Set of Fear Inducing Pictures (SFIP): Development and validation in fearful and nonfearful individuals},
+  author={Micha{\l}owski, Jaros{\l}aw M and Dro{\'z}dziel, Dawid and Matuszewski, Jacek and Koziejowski, Wojtek and Jednor{\'o}g, Katarzyna and Marchewka, Artur},
+  journal={Behavior Research Methods},
+  volume={49},
+  pages={1407--1419},
+  year={2017},
+  publisher={Springer}
+}
+
+@article{modinos2012multivariate,
+  title={Multivariate pattern classification reveals differential brain activation during emotional processing in individuals with psychosis proneness},
+  author={Modinos, Gemma and Pettersson-Yeo, William and Allen, Paul and McGuire, Philip K and Aleman, Andr{\'e} and Mechelli, Andrea},
+  journal={Neuroimage},
+  volume={59},
+  number={3},
+  pages={3033--3041},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{brotons1999metodo,
+  title={Un m{\'e}todo para el estudio experimental de las emociones: el International Affective Picture System (IAPS). Adaptaci{\'o}n espa{\~n}ola},
+  author={Brotons, Javier Molt{\'o} and Monta{\~n}{\'e}s, Salvador and Gil, Rosario Poy and Cabedo, Pilar Segarra and Verchili, M Carmen Pastor and Ir{\'u}n, Mar{\'\i}a Pilar Tormo and Ucl{\'e}s, Isabel Ram{\'\i}rez and Hern{\'a}ndez, MA and S{\'a}nchez, Mar{\'\i}a Blasa and Castellar, Jaime Vila and others},
+  journal={Revista de psicolog{\'\i}a general y aplicada: Revista de la Federaci{\'o}n Espa{\~n}ola de Asociaciones de Psicolog{\'\i}a},
+  volume={52},
+  number={1},
+  pages={55--87},
+  year={1999},
+  publisher={Consejo General de Colegios Oficiales de Psicolog{\'\i}a de Espa{\~n}a}
+}
+
+@article{muller2008time,
+  title={Time course of competition for visual processing resources between emotional pictures and foreground task},
+  author={M{\"u}ller, Matthias M and Andersen, S{\o}ren K and Keil, Andreas},
+  journal={Cerebral Cortex},
+  volume={18},
+  number={8},
+  pages={1892--1899},
+  year={2008},
+  publisher={Oxford University Press}
+}
+
+@article{nordstrom2012emotional,
+  title={Emotional event-related potentials are larger to figures than scenes but are similarly reduced by inattention},
+  author={Nordstr{\"o}m, Henrik and Wiens, Stefan},
+  journal={BMC neuroscience},
+  volume={13},
+  pages={1--10},
+  year={2012},
+  publisher={Springer}
+}
+
+@book{osgood1957measurement,
+  title={The measurement of meaning},
+  author={Osgood, Charles Egerton and Suci, George J and Tannenbaum, Percy H},
+  number={47},
+  year={1957},
+  publisher={University of Illinois press}
+}
+
+@article{ribeiro2005comparison,
+  title={Comparison of brazilian and american norms for the international affective picture system (IAPS)},
+  author={Ribeiro, Rafaela Larsen and Pomp{\'e}ia, Sabine and Bueno, Orlando Francisco Amodeo},
+  journal={Brazilian Journal of Psychiatry},
+  volume={27},
+  pages={208--215},
+  year={2005},
+  publisher={SciELO Brasil}
+}
+
+@article{riegel2016characterization,
+  title={Characterization of the Nencki Affective Picture System by discrete emotional categories (NAPS BE)},
+  author={Riegel, Monika and {\.Z}urawski, {\L}ukasz and Wierzba, Ma{\l}gorzata and Moslehi, Abnoss and Klocek, {\L}ukasz and Horvat, Marko and Grabowska, Anna and Micha{\l}owski, Jaros{\l}aw and Jednor{\'o}g, Katarzyna and Marchewka, Artur},
+  journal={Behavior research methods},
+  volume={48},
+  pages={600--612},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{roman2015adaptive,
+  title={Adaptive working memory training reveals a negligible effect of emotional stimuli over cognitive processing},
+  author={Rom{\'a}n, Francisco J and Garc{\'\i}a-Rubio, Mar{\'\i}a J and Privado, Jes{\'u}s and Kessel, Dominique and L{\'o}pez-Mart{\'\i}n, Sara and Mart{\'\i}nez, Kenia and Shih, Pei-Chun and Tapia, Manuel and Serrano, Juan Manuel and Carreti{\'e}, Luis and others},
+  journal={Personality and Individual Differences},
+  volume={74},
+  pages={165--170},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{romero2018influence,
+  title={Influence of emotional contexts on facial emotion attribution in schizophrenia},
+  author={Romero-Ferreiro, Ver{\'o}nica and Aguado, Luis and Tor{\'\i}o, Iosune and S{\'a}nchez-Morla, Eva M and Caballero-Gonz{\'a}lez, Montserrat and Rodriguez-Jimenez, Roberto},
+  journal={Psychiatry Research},
+  volume={270},
+  pages={554--559},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{ruiz2017individual,
+  title={Individual differences in attentional capture by pictures of fear and disgust as indexed by cardiac responses},
+  author={Ruiz-Padial, Elisabeth and Medialdea, MT Mendoza and Del Paso, G Reyes and Thayer, JF},
+  journal={Journal of Psychophysiology},
+  year={2017},
+  publisher={Hogrefe Publishing}
+}
+
+@article{russell1979affective,
+  title={Affective space is bipolar.},
+  author={Russell, James A},
+  journal={Journal of personality and social psychology},
+  volume={37},
+  number={3},
+  pages={345},
+  year={1979},
+  publisher={American Psychological Association}
+}
+
+@article{russell2003core,
+  title={Core affect and the psychological construction of emotion.},
+  author={Russell, James A},
+  journal={Psychological review},
+  volume={110},
+  number={1},
+  pages={145},
+  year={2003},
+  publisher={American Psychological Association}
+}
+
+@article{soares2015adaptation,
+  title={Adaptation of the international affective picture system (IAPS) for European Portuguese},
+  author={Soares, Ana Paula and Pinheiro, Ana P and Costa, Ana and Frade, Carla Sofia and Comesa{\~n}a, Montserrat and Pureza, Rita},
+  journal={Behavior Research Methods},
+  volume={47},
+  pages={1159--1177},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{verschoor1970vigilance,
+  title={Vigilance performance and skin conductance},
+  author={Verschoor, AM and van Wieringen, PCW},
+  journal={Acta psychologica},
+  volume={33},
+  pages={394--401},
+  year={1970},
+  publisher={Elsevier}
+}
+
+@article{vila2001sistema,
+  title={El sistema internacional de im{\'a}genes afectivas (IAPS): Adaptaci{\'o}n espa{\~n}ola. Segunda parte},
+  author={Vila, Jaime and S{\'a}nchez, M and Ram{\'\i}rez, I and Fern{\'a}ndez, MC and Cobos, P and Rodr{\'\i}guez, S and Mu{\~n}oz, MA and Tormo, MP and Herrero, M and Segarra, P and others},
+  journal={Revista de psicolog{\'\i}a general y aplicada},
+  volume={54},
+  number={4},
+  year={2001}
+}
+
+@article{hajcak2010event,
+  title={Event-related potentials, emotion, and emotion regulation: an integrative review},
+  author={Hajcak, Greg and MacNamara, Annmarie and Olvet, Doreen M},
+  journal={Developmental neuropsychology},
+  volume={35},
+  number={2},
+  pages={129--155},
+  year={2010},
+  publisher={Taylor \& Francis}
+}
+
+@article{wiens2011nonemotional,
+  title={Nonemotional features suppress early and enhance late emotional electrocortical responses to negative pictures},
+  author={Wiens, Stefan and Sand, Anders and Olofsson, Jonas K},
+  journal={Biological psychology},
+  volume={86},
+  number={1},
+  pages={83--89},
+  year={2011},
+  publisher={Elsevier}
+}
+
+@article{xu2016divergent,
+  title={The divergent effects of fear and disgust on unconscious inhibitory control},
+  author={Xu, Mengsi and Ding, Cody and Li, Zhiai and Zhang, Junhua and Zeng, Qinghong and Diao, Liuting and Fan, Lingxia and Yang, Dong},
+  journal={Cognition and emotion},
+  volume={30},
+  number={4},
+  pages={731--744},
+  year={2016},
+  publisher={Taylor \& Francis}
+}
+
+@article{xu2015divergent,
+  title={The divergent effects of fear and disgust on inhibitory control: An ERP study},
+  author={Xu, Mengsi and Li, Zhiai and Ding, Cody and Zhang, Junhua and Fan, Lingxia and Diao, Liuting and Yang, Dong},
+  journal={PLoS One},
+  volume={10},
+  number={6},
+  pages={e0128932},
+  year={2015},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{xu2016dissociable,
+  title={Dissociable effects of fear and disgust in proactive and reactive inhibition},
+  author={Xu, Mengsi and Li, Zhiai and Fan, Lingxia and Sun, Lijing and Ding, Cody and Li, Liang and Yang, Dong},
+  journal={Motivation and Emotion},
+  volume={40},
+  pages={334--342},
+  year={2016},
+  publisher={Springer}
+}

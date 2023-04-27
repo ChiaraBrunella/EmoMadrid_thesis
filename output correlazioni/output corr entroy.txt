@@ -1,0 +1,614 @@
+>> pearson_1069_entropy
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_Animals_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating variable
+names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  152×28 table
+
+      EMCODE       Category      NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C     Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96     SF96_48       SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    ___________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    __________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    __________    __________    __________    __________    __________    __________
+
+    {'EM0002'}    {'Animals'}      127          -0.39         1.04         128          1.48          0.72       {''negativa''}    {''neutra''  }    {''alto''}    {''alto''  }     {''distress''  }            57.32            396.16         0.25         31.27              4.027              3.742          489.86       3752.1        21236      1.194e+05    4.6909e+05    1.3139e+06     4.808e+06    2.5979e+07     4.155e+08
+    {'EM0017'}    {'Animals'}      191           -1.3         0.88         189          1.49          0.68       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            75.92            232.95         0.22         21.95              1.943              2.786           31.83        297.2       1964.6          14732    1.2844e+05    1.0451e+06    6.5935e+06    6.7786e+07    4.5907e+08
+    {'EM0024'}    {'Animals'}      105          -0.71         1.11         104          0.79          0.93       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           109.17            376.56         0.23         37.82              4.278               3.73           431.3       3194.9        14365          55930    2.5794e+05    1.0821e+06    4.8773e+06    2.2815e+07     7.854e+08
+    {'EM0025'}    {'Animals'}      105          -0.76         1.04         104          1.07          0.77       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           109.28            262.76         0.19         46.88              2.624              3.256           75.82       769.53       6728.2          48637    2.7769e+05    1.5326e+06    7.1618e+06    1.6112e+07    7.6999e+08
+    {'EM0029'}    {'Animals'}      103          -0.96         1.02         128          1.21          0.87       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           121.01            200.39         0.45          23.5               2.76              2.628          131.57       1182.1        24041          92528    4.7769e+05    3.6568e+06    7.1772e+07    1.6658e+08    1.2212e+09
+    {'EM0030'}    {'Animals'}      227          -0.95         0.94         227          1.15          0.81       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           175.25            321.29          0.2         35.36              2.881              3.491          301.32       2138.1        10435          43060    1.7699e+05    8.7519e+05    8.3965e+06    3.3396e+07    2.0898e+09
+
+        :              :            :             :             :           :             :             :              :                 :               :              :                   :                     :                 :            :             :                  :                  :               :            :           :            :             :             :             :             :             :     
+
+    {'EM0981'}    {'Animals'}      108          -0.06         0.83         112          0.56          0.72       {''negativa''}    {''neutra''  }    {''alto''}    {''neutro''}     {''distress''  }           173.83            596.51         0.26         80.87              4.339              4.493          225.47       1791.1       8957.9          36054    1.4922e+05    7.6885e+05    5.0052e+06     5.471e+07    2.1466e+09
+    {'EM0992'}    {'Animals'}      110           0.82         0.71         111          0.14          0.96       {''positiva''}    {''positiva''}    {''alto''}    {''neutro''}     {''excitement''}            104.5            808.17         0.31         23.04              5.039              3.955          700.63         4063        21599     1.1584e+05    5.4256e+05    2.6669e+06    1.6955e+07    6.7241e+07    8.5828e+08
+    {'EM0993'}    {'Animals'}       85          -0.42         0.79          91          0.24          0.64       {''negativa''}    {''neutra''  }    {''alto''}    {''neutro''}     {''distress''  }           126.76              1006         0.14         47.77              6.168              4.766          890.28       4560.3        10673          21344         40246    2.8588e+05     2.887e+05    1.6277e+06    1.1929e+09
+    {'EM1001'}    {'Animals'}      110          -0.74         0.71         111          0.56          0.63       {''negativa''}    {''negativa''}    {''alto''}    {''neutro''}     {''distress''  }           142.13            659.57         0.24         27.42              3.925              4.002          411.81       1930.2        10170          56626     3.581e+05    2.0231e+06    9.5367e+06    6.4991e+07    1.4173e+09
+    {'EM1057'}    {'Animals'}      111          -1.78         0.49         111          1.32          0.83       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            101.9              1014         0.25         33.85              8.184              4.639          2142.2       9411.8        33145     1.1213e+05    3.9125e+05    1.2336e+06    4.8544e+06    1.9107e+07    8.1556e+08
+    {'EM1065'}    {'Animals'}      108          -0.55         0.88         109          1.12          0.65       {''negativa''}    {''neutra''  }    {''alto''}    {''alto''  }     {''distress''  }            82.85            458.95         0.18         28.09              2.081              3.096          120.45       646.45       4056.3          25339    1.6585e+05    1.0389e+06    8.1207e+06     2.614e+07    5.3005e+08
+
+	Display all 152 rows.
+
+
+r_EntrXAro =
+
+    1.0000   -0.1600
+   -0.1600    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.0489
+    0.0489    1.0000
+
+
+r_EntrXVal =
+
+    1.0000    0.1939
+    0.1939    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.0167
+    0.0167    1.0000
+
+Error using horzcat
+Inconsistent concatenation dimensions because a 152-by-1 'double' array was converted to a 1-by-1 'cell' array.
+Consider creating arrays of the same type before concatenating.
+
+Error in corrcoef (line 79)
+   x = [x(:) y(:)];
+
+Error in pearson_1069_entropy (line 41)
+[r_ConXEntr, p_ConXEntr] = corrcoef(featureCongestion, SubbandEntropy)
+ 
+>> pearson_1069_entropy
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_Animals_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating
+variable names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  152×28 table
+
+      EMCODE       Category      NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C     Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96     SF96_48       SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    ___________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    __________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    __________    __________    __________    __________    __________    __________
+
+    {'EM0002'}    {'Animals'}      127          -0.39         1.04         128          1.48          0.72       {''negativa''}    {''neutra''  }    {''alto''}    {''alto''  }     {''distress''  }            57.32            396.16         0.25         31.27              4.027              3.742          489.86       3752.1        21236      1.194e+05    4.6909e+05    1.3139e+06     4.808e+06    2.5979e+07     4.155e+08
+    {'EM0017'}    {'Animals'}      191           -1.3         0.88         189          1.49          0.68       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            75.92            232.95         0.22         21.95              1.943              2.786           31.83        297.2       1964.6          14732    1.2844e+05    1.0451e+06    6.5935e+06    6.7786e+07    4.5907e+08
+    {'EM0024'}    {'Animals'}      105          -0.71         1.11         104          0.79          0.93       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           109.17            376.56         0.23         37.82              4.278               3.73           431.3       3194.9        14365          55930    2.5794e+05    1.0821e+06    4.8773e+06    2.2815e+07     7.854e+08
+    {'EM0025'}    {'Animals'}      105          -0.76         1.04         104          1.07          0.77       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           109.28            262.76         0.19         46.88              2.624              3.256           75.82       769.53       6728.2          48637    2.7769e+05    1.5326e+06    7.1618e+06    1.6112e+07    7.6999e+08
+    {'EM0029'}    {'Animals'}      103          -0.96         1.02         128          1.21          0.87       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           121.01            200.39         0.45          23.5               2.76              2.628          131.57       1182.1        24041          92528    4.7769e+05    3.6568e+06    7.1772e+07    1.6658e+08    1.2212e+09
+    {'EM0030'}    {'Animals'}      227          -0.95         0.94         227          1.15          0.81       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }           175.25            321.29          0.2         35.36              2.881              3.491          301.32       2138.1        10435          43060    1.7699e+05    8.7519e+05    8.3965e+06    3.3396e+07    2.0898e+09
+
+        :              :            :             :             :           :             :             :              :                 :               :              :                   :                     :                 :            :             :                  :                  :               :            :           :            :             :             :             :             :             :     
+
+    {'EM0981'}    {'Animals'}      108          -0.06         0.83         112          0.56          0.72       {''negativa''}    {''neutra''  }    {''alto''}    {''neutro''}     {''distress''  }           173.83            596.51         0.26         80.87              4.339              4.493          225.47       1791.1       8957.9          36054    1.4922e+05    7.6885e+05    5.0052e+06     5.471e+07    2.1466e+09
+    {'EM0992'}    {'Animals'}      110           0.82         0.71         111          0.14          0.96       {''positiva''}    {''positiva''}    {''alto''}    {''neutro''}     {''excitement''}            104.5            808.17         0.31         23.04              5.039              3.955          700.63         4063        21599     1.1584e+05    5.4256e+05    2.6669e+06    1.6955e+07    6.7241e+07    8.5828e+08
+    {'EM0993'}    {'Animals'}       85          -0.42         0.79          91          0.24          0.64       {''negativa''}    {''neutra''  }    {''alto''}    {''neutro''}     {''distress''  }           126.76              1006         0.14         47.77              6.168              4.766          890.28       4560.3        10673          21344         40246    2.8588e+05     2.887e+05    1.6277e+06    1.1929e+09
+    {'EM1001'}    {'Animals'}      110          -0.74         0.71         111          0.56          0.63       {''negativa''}    {''negativa''}    {''alto''}    {''neutro''}     {''distress''  }           142.13            659.57         0.24         27.42              3.925              4.002          411.81       1930.2        10170          56626     3.581e+05    2.0231e+06    9.5367e+06    6.4991e+07    1.4173e+09
+    {'EM1057'}    {'Animals'}      111          -1.78         0.49         111          1.32          0.83       {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            101.9              1014         0.25         33.85              8.184              4.639          2142.2       9411.8        33145     1.1213e+05    3.9125e+05    1.2336e+06    4.8544e+06    1.9107e+07    8.1556e+08
+    {'EM1065'}    {'Animals'}      108          -0.55         0.88         109          1.12          0.65       {''negativa''}    {''neutra''  }    {''alto''}    {''alto''  }     {''distress''  }            82.85            458.95         0.18         28.09              2.081              3.096          120.45       646.45       4056.3          25339    1.6585e+05    1.0389e+06    8.1207e+06     2.614e+07    5.3005e+08
+
+	Display all 152 rows.
+
+
+r_EntrXAro =
+
+    1.0000   -0.1600
+   -0.1600    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.0489
+    0.0489    1.0000
+
+
+r_EntrXVal =
+
+    1.0000    0.1939
+    0.1939    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.0167
+    0.0167    1.0000
+
+
+r_ConXEntr =
+
+    1.0000    0.7113
+    0.7113    1.0000
+
+
+p_ConXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_ConXSize =
+
+    1.0000    0.6171
+    0.6171    1.0000
+
+
+p_ConXSize =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_SizeXEntr =
+
+    1.0000    0.6207
+    0.6207    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_Food_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating
+variable names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  109×28 table
+
+      EMCODE      Category    NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C      Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96     SF96_48       SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    ________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    ___________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    __________    __________    __________    __________    __________    __________
+
+    {'EM0005'}    {'Food'}      221         0.47511       0.69777       224         -0.17857      0.63124     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}            54.1            164.27       0.31421        71.655             1.546              2.5685         20.024        170.8       1820.8          20608    2.2505e+05    2.3708e+06    1.8002e+07    8.6968e+07    2.7909e+08
+    {'EM0006'}    {'Food'}      104          1.2212       0.86974       102          0.20588       1.1375     {''positiva''}    {''positiva''}    {''alto'' }    {''neutro''}     {''excitement'' }          146.57             523.3       0.20158        61.113            5.0638              4.5768            401       2117.4        11449          72417    4.3581e+05     2.094e+06    8.5647e+06    1.5639e+07     1.382e+09
+    {'EM0007'}    {'Food'}      105          1.0667       0.98319       103          0.23301       1.0117     {''positiva''}    {''positiva''}    {''alto'' }    {''neutro''}     {''excitement'' }           146.9             356.5       0.18673         50.78            3.8622              4.1969         150.01       1274.7       9953.9          68973    3.9133e+05    2.0478e+06    5.8474e+06     1.583e+07     1.394e+09
+    {'EM0008'}    {'Food'}      204         0.23039       0.70246       209          0.11962      0.86048     {''positiva''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''excitement'' }           44.46            148.48       0.33555        76.662            1.6189               1.972         13.298       151.56       1632.9          16511    1.3532e+05    1.3354e+06    1.3966e+07    6.9621e+07    2.8018e+08
+    {'EM0009'}    {'Food'}      184         0.28804       0.57133       187         -0.15508      0.60687     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}          138.07            382.26       0.19288        44.332            3.4149              4.6027         142.81       1187.5       7766.1          50270     3.741e+05    2.2934e+06     4.621e+06    5.2075e+06    1.2217e+09
+    {'EM0010'}    {'Food'}      130             0.8       0.79143       130        -0.030769      0.88868     {''positiva''}    {''positiva''}    {''basso''}    {''neutro''}     {''contentment''}          183.83            387.86       0.20613         36.07            5.7831                4.28         348.39       2822.7        18920     1.1969e+05    7.3729e+05    2.8517e+06    2.3395e+06    1.9789e+06    2.2063e+09
+
+        :            :           :             :             :           :             :             :              :                 :                :              :                   :                     :                 :            :             :                  :                  :               :            :           :            :             :             :             :             :             :     
+
+    {'EM1051'}    {'Food'}      108            0.75       0.79866       111          0.74775      0.81429     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }          131.18            601.37       0.20624        43.362            3.1219              3.7875         157.07       930.19         4984          35218    2.3402e+05    1.2817e+06     8.835e+06    3.3163e+07    1.2269e+09
+    {'EM1061'}    {'Food'}      110         0.32727       0.90977       110         0.054545      0.71467     {''positiva''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''excitement'' }          123.23            495.66       0.30061         48.56            2.7614              3.4274         138.16         1211       7978.7          53536    3.4141e+05    1.8619e+06    3.2528e+07      4.48e+07    1.0732e+09
+    {'EM1063'}    {'Food'}      110         -1.5091       0.55431       110          0.89091      0.75838     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }           45.57             342.4       0.18856        51.447            1.5553              2.4153          34.07       193.78       1064.2         7398.9         55151    4.6991e+05    3.1075e+06    6.9121e+06    1.9584e+08
+    {'EM1064'}    {'Food'}      111         -1.2252         0.759       111                1      0.73855     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }          100.59            661.22       0.30989        74.178            3.4175              3.6608         251.65       1650.8        10763          70038    4.1603e+05    2.3645e+06    1.2292e+07    3.3029e+07    6.4139e+08
+    {'EM1068'}    {'Food'}      111         -1.0721       0.99738       109           1.0826      0.75924     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }           78.43            773.83       0.28054        62.495            3.1649              3.4671         137.67       1496.7       8938.6          69204    3.9707e+05    2.6924e+06     1.184e+07    2.8995e+07    4.7419e+08
+    {'EM1071'}    {'Food'}      110         0.67273       0.84711       112           0.3125       0.7356     {''positiva''}    {''positiva''}    {''alto'' }    {''neutro''}     {''excitement'' }           96.83            517.42        0.2328        68.977             2.227               3.397         88.822       675.01       4579.6          34652    2.2358e+05    1.4281e+06     1.066e+07    3.2482e+07    7.5522e+08
+
+	Display all 109 rows.
+
+
+r_EntrXAro =
+
+    1.0000    0.1119
+    0.1119    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.2466
+    0.2466    1.0000
+
+
+r_EntrXVal =
+
+    1.0000    0.2015
+    0.2015    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.0356
+    0.0356    1.0000
+
+
+r_ConXEntr =
+
+    1.0000    0.6518
+    0.6518    1.0000
+
+
+p_ConXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_ConXSize =
+
+    1.0000    0.5517
+    0.5517    1.0000
+
+
+p_ConXSize =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_SizeXEntr =
+
+    1.0000    0.5393
+    0.5393    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_Landscape_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating
+variable names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  198×28 table
+
+      EMCODE        Category       NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C      Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96     SF96_48       SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    _____________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    ___________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    __________    __________    __________    __________    __________    __________
+
+    {'EM0001'}    {'Landscape'}      134          -1.1493      0.92993       138         0.44203        1.1901     {''negativa''}    {''negativa''}    {''alto'' }    {''neutro''}     {''distress''   }          118.59            411.69       0.26329        37.521             3.259               3.441         241.92       1438.5         6910          28824     2.228e+05    9.2454e+05    1.6647e+06    1.5981e+07    1.0919e+09
+    {'EM0027'}    {'Landscape'}      183          0.60109      0.61964       185        -0.40541       0.83599     {''positiva''}    {''positiva''}    {''basso''}    {''neutro''}     {''contentment''}          180.08            679.29       0.19155         45.69            4.0942              3.8718         538.62       2275.9       9363.8          46674    2.4981e+05    7.4329e+05    2.6659e+06    2.8288e+07    2.1802e+09
+    {'EM0036'}    {'Landscape'}      185         -0.24865      0.61043       184               0       0.61848     {''negativa''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''distress''   }           134.9            468.45        0.3627        57.286            2.5188              3.0534         82.841       670.04       4555.8          19804    1.5458e+05    9.1054e+05    4.4564e+06    2.1033e+07    1.4191e+09
+    {'EM0037'}    {'Landscape'}      183          0.92896      0.74891       185        -0.35676       0.92211     {''positiva''}    {''positiva''}    {''basso''}    {''neutro''}     {''contentment''}          132.08            750.64       0.33737        59.814             3.354              3.7128         296.63       2305.6       9824.7          63012    3.6159e+05    2.6649e+06    1.8378e+07    6.3367e+07    1.2701e+09
+    {'EM0056'}    {'Landscape'}      200             1.08      0.79799       199         0.72864       0.94641     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }          129.38            583.93       0.27872        50.503            5.9312              4.1007         644.82         4252        21078     1.0274e+05    5.0142e+05    2.7071e+06      8.29e+06    2.5252e+07    1.1743e+09
+    {'EM0059'}    {'Landscape'}      105            1.419      0.87465       104        -0.45192        1.4673     {''positiva''}    {''positiva''}    {''basso''}    {''neutro''}     {''contentment''}             149             276.2       0.13097        39.066            2.3988              3.4909          52.63       447.48       2541.4          14598         84631    5.1624e+05    2.8679e+06     1.597e+07    1.5875e+09
+
+        :               :             :             :             :           :             :             :              :                 :                :              :                   :                     :                 :            :             :                  :                  :               :            :           :            :             :             :             :             :             :     
+
+    {'EM1040'}    {'Landscape'}      109          0.86239      0.79893       110         0.11818        1.1631     {''positiva''}    {''positiva''}    {''alto'' }    {''neutro''}     {''excitement'' }           73.79            478.43       0.28202        34.731            2.2596              2.3592         221.73       1127.4         5075          25780    1.2799e+05    8.8904e+05    4.5695e+06    5.7044e+07    5.1015e+08
+    {'EM1047'}    {'Landscape'}      110           1.5273      0.68682       111         -1.6306       0.65959     {''positiva''}    {''positiva''}    {''basso''}    {''basso'' }     {''contentment''}          117.77            850.74       0.24026        10.353            2.8551              3.9407         167.87       836.65       3627.5          15657         76006    3.5604e+05     1.769e+06     1.212e+07    9.6473e+08
+    {'EM1054'}    {'Landscape'}      110          0.88182      0.76304       111         -1.0541       0.71144     {''positiva''}    {''positiva''}    {''basso''}    {''basso'' }     {''contentment''}          130.16            709.29       0.30909        69.829            4.0696              3.9894          531.1       2275.2       9413.3          48644    2.7895e+05    1.9488e+06    5.2891e+06    4.8083e+07    1.1338e+09
+    {'EM1070'}    {'Landscape'}      110         -0.89091       0.8604       111         0.55856       0.93113     {''negativa''}    {''negativa''}    {''alto'' }    {''neutro''}     {''distress''   }          156.17            470.67       0.27253        37.841            3.5543              3.6416         423.64       1906.6        13225          74007    4.3858e+05    2.9914e+06    1.9298e+07     5.462e+07    1.6304e+09
+    {'EM1072'}    {'Landscape'}      110       -0.0090909      0.87257       110         0.14545       0.95626     {''negativa''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''distress''   }          128.19            664.29       0.25754         17.29            4.3467              4.2049         958.21       3520.8        16468          66655    4.0012e+05    2.4627e+06    1.7198e+07    2.3557e+07    1.1329e+09
+    {'EM1073'}    {'Landscape'}      109           1.4587      0.71404       112         -1.2054       0.91177     {''positiva''}    {''positiva''}    {''basso''}    {''basso'' }     {''contentment''}          140.02              1001       0.27578        76.427            4.6842              4.3552          803.8       3955.4        15254          65084    2.7647e+05    1.3323e+06    6.1335e+06    3.8782e+07    1.4909e+09
+
+	Display all 198 rows.
+
+
+r_EntrXAro =
+
+    1.0000   -0.0643
+   -0.0643    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.3682
+    0.3682    1.0000
+
+
+r_EntrXVal =
+
+    1.0000   -0.0444
+   -0.0444    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.5341
+    0.5341    1.0000
+
+
+r_ConXEntr =
+
+    1.0000    0.6385
+    0.6385    1.0000
+
+
+p_ConXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_ConXSize =
+
+    1.0000    0.4745
+    0.4745    1.0000
+
+
+p_ConXSize =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_SizeXEntr =
+
+    1.0000    0.4061
+    0.4061    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_Object_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating
+variable names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  244×28 table
+
+      EMCODE       Category     NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C      Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96    SF96_48     SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    __________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    ___________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    _______    __________    __________    __________    __________    __________
+
+    {'EM0004'}    {'Object'}      105        -0.057143      0.63289       103          0.42718      0.85866     {''negativa''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''distress''   }          232.87            161.04       0.15539        53.093            2.8896              2.0444         309.27       1751.4       7087.6      35339     2.1895e+05    1.3509e+06    5.1909e+06    1.4553e+07    3.5945e+09
+    {'EM0016'}    {'Object'}      221         0.072398      0.44129       221        -0.090498      0.66807     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}          244.47            82.134       0.15023           NaN               NaN              1.4284         138.92       1351.4       9259.7      45579     2.4132e+05     1.235e+06    3.5811e+06    8.3886e+06    3.9255e+09
+    {'EM0019'}    {'Object'}      104          0.49038      0.71047       102         -0.62745      0.68825     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}           61.21            202.17       0.24535        17.411            1.8831              2.0765         80.425       517.35       4390.3      18432     1.6318e+05    6.0236e+05    7.8101e+06    3.6316e+07    3.1002e+08
+    {'EM0022'}    {'Object'}      104         0.048077      0.54648       103        -0.058252      0.57438     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}          135.92            362.75       0.17836        73.316            2.8642              3.4788         38.435        494.3       5495.1      46690     3.7436e+05    1.8754e+06     9.553e+06    3.1711e+07    1.2335e+09
+    {'EM0026'}    {'Object'}      130         0.069231       0.3563       130         -0.22308      0.63813     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}          143.31            353.05       0.18412        25.889            2.1556              2.8683         51.042       334.63       2403.6      17037          80806     8.409e+05    2.3894e+06    4.4104e+07    1.4375e+09
+    {'EM0028'}    {'Object'}      104          0.10577      0.51986       103          -0.1068      0.62485     {''positiva''}    {''neutra''  }    {''basso''}    {''neutro''}     {''contentment''}          120.34            412.86        0.1387        66.573            2.2201              2.8817         66.376       280.36       1071.4     5265.8          26735     1.964e+05    8.3917e+05    6.4849e+06    1.0084e+09
+
+        :             :            :             :             :           :             :             :              :                 :                :              :                   :                     :                 :            :             :                  :                  :               :            :           :           :           :             :             :             :             :     
+
+    {'EM1058'}    {'Object'}      110         -0.56364       0.7107       111           0.2973      0.61192     {''negativa''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''distress''   }          130.92              1022       0.20222        21.791            8.4354              4.6623         1738.3       7690.7        23438      69074      1.863e+05    5.5366e+05    2.0802e+06    8.9117e+06    1.2065e+09
+    {'EM1059'}    {'Object'}      111         -0.27928      0.63491       112       -0.0089286      0.62234     {''negativa''}    {''neutra''  }    {''basso''}    {''neutro''}     {''depression'' }           120.3            362.44       0.25934        50.441            1.9102               2.626         37.988       274.72       1841.2      14656          94976    6.8251e+05    3.6131e+06    2.9416e+07    1.1621e+09
+    {'EM1060'}    {'Object'}      109         -0.47706      0.72771       110          0.28182      0.71846     {''negativa''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''distress''   }          193.09            340.75       0.13229         12.64            2.1564              3.2437         27.514       221.12       1785.9      14428          90039    5.2381e+05    3.1346e+06    1.0519e+07    2.4997e+09
+    {'EM1062'}    {'Object'}      111          -1.4595      0.62934       110          0.90909      0.71093     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }            41.1            568.46       0.24399        42.049             2.221              2.9042         226.26       1102.1         5216      24572     1.2116e+05    7.5023e+05    5.2818e+06    3.1945e+07    2.3513e+08
+    {'EM1066'}    {'Object'}      111          -1.8198      0.48986       112           1.2143      0.78761     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }           83.39            557.04       0.26097        39.066            3.9067              3.3428         469.95       2355.5        12056      64409     2.2611e+05     2.418e+06     5.679e+06    8.3505e+07    5.0492e+08
+    {'EM1069'}    {'Object'}      109          -1.7615      0.42815       112          0.96429      0.73434     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }          113.98            627.88       0.24503        20.518            4.0827              3.8964         220.72       1965.3        13814      91709     4.9473e+05    2.4819e+06    1.1113e+07    5.2107e+07    9.0226e+08
+
+	Display all 244 rows.
+
+
+r_EntrXAro =
+
+    1.0000   -0.0978
+   -0.0978    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.1277
+    0.1277    1.0000
+
+
+r_EntrXVal =
+
+    1.0000   -0.0221
+   -0.0221    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.7311
+    0.7311    1.0000
+
+
+r_ConXEntr =
+
+   NaN   NaN
+   NaN     1
+
+
+p_ConXEntr =
+
+   NaN   NaN
+   NaN     1
+
+
+r_ConXSize =
+
+   NaN   NaN
+   NaN     1
+
+
+p_ConXSize =
+
+   NaN   NaN
+   NaN     1
+
+
+r_SizeXEntr =
+
+    1.0000    0.6041
+    0.6041    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_People_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating
+variable names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  317×28 table
+
+      EMCODE       Category     NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C      Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96     SF96_48       SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    __________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    ___________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    __________    __________    __________    __________    __________    __________
+
+    {'EM0003'}    {'People'}      221          1.4706       0.64335       224         0.90625       0.91581     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }          105.09            334.75       0.26626        55.652            2.7595              3.2865         69.463       829.03       8390.1          66626    4.7151e+05    2.5545e+06    1.2296e+07    2.6061e+07    7.4121e+08
+    {'EM0018'}    {'People'}      105          1.3333        0.8165       103         0.76699        1.0683     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }          134.14            627.81       0.27388        45.414            3.3783              3.4894         339.67       1160.2       5293.8          31047    2.1305e+05    9.5811e+05    4.2319e+06     3.193e+07     1.317e+09
+    {'EM0021'}    {'People'}      103          1.4757       0.72551       103         0.66019        1.0343     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }           68.16            458.09       0.24935        48.389            2.3734              2.9266         112.16       856.29       6125.4          39083    2.9591e+05    1.5051e+06    8.7555e+06    4.1139e+07    3.7958e+08
+    {'EM0040'}    {'People'}      104          1.4038          0.69       103         0.70874       0.99638     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }          130.18            391.96         0.312         82.38            2.9651              2.8048         353.78       1395.4         6037          36395    2.2487e+05    1.4184e+06     7.524e+06    1.1067e+08     1.188e+09
+    {'EM0052'}    {'People'}      110         0.29091       0.87099       111         0.91892       0.60506     {''positiva''}    {''neutra''  }    {''alto'' }    {''alto''  }     {''excitement'' }           89.19            656.69       0.21748        36.967            3.4015              3.4851         534.71       2322.4        10223          54240    3.1134e+05    1.5909e+06     9.458e+06    1.7613e+07    5.5998e+08
+    {'EM0054'}    {'People'}       86        -0.87209       0.97975        87          1.2184       0.84117     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }          114.54             613.4       0.32317        65.387            3.3179              3.6355         271.03       2011.5        12576          96485    6.7662e+05    4.4225e+06    2.3693e+07    5.7615e+07    9.0207e+08
+
+        :             :            :             :             :           :             :             :              :                 :                :              :                   :                     :                 :            :             :                  :                  :               :            :           :            :             :             :             :             :             :     
+
+    {'EM1043'}    {'People'}      109         0.92661       0.75408       112         0.26786       0.99532     {''positiva''}    {''positiva''}    {''alto'' }    {''neutro''}     {''excitement'' }           66.32            627.16       0.28867        49.483            3.9309              3.1153         399.38       2905.2        15686     1.0296e+05    5.7201e+05    3.8704e+06    1.0196e+07    3.0881e+07    3.6185e+08
+    {'EM1044'}    {'People'}      107        -0.36449       0.82864       111         0.38739       0.74065     {''negativa''}    {''neutra''  }    {''alto'' }    {''neutro''}     {''distress''   }          125.21            713.16       0.23281        51.528            4.8524              3.9757         683.82       3487.5        18156          73179    3.9135e+05    2.4618e+06    7.4135e+06    2.2992e+07    1.0139e+09
+    {'EM1045'}    {'People'}      109          1.4312       0.67174       111         -1.6216       0.58859     {''positiva''}    {''positiva''}    {''basso''}    {''basso'' }     {''contentment''}          127.47            351.26        0.2593        71.256            1.7418              2.9014         68.906       394.01       788.49         4011.1         20476     1.293e+05    6.7627e+05    8.6262e+06    1.0601e+09
+    {'EM1052'}    {'People'}      109          1.1835        0.7474       112          1.3036       0.61277     {''positiva''}    {''positiva''}    {''alto'' }    {''alto''  }     {''excitement'' }           73.35            567.66       0.28805        35.079            2.7432               2.873         97.692       956.71       9428.7          60128    3.4091e+05    1.6874e+06    8.3342e+06    4.3389e+07    5.0372e+08
+    {'EM1053'}    {'People'}      109          1.1284       0.61011       110        -0.47273       0.91581     {''positiva''}    {''positiva''}    {''basso''}    {''neutro''}     {''contentment''}           80.68              1001       0.26799        34.648            6.0817              4.0593         1576.8       5918.5        21598          95636    4.6964e+05     2.122e+06    8.4403e+06    2.1433e+07    4.8111e+08
+    {'EM1067'}    {'People'}      110        -0.87273       0.89963       112          1.4911       0.53685     {''negativa''}    {''negativa''}    {''alto'' }    {''alto''  }     {''distress''   }            47.4             534.3       0.25526        35.274            2.8831              2.8101         189.19       1714.2        16423     1.0085e+05     5.809e+05    1.7569e+06    8.7801e+06    2.5814e+07    1.9601e+08
+
+	Display all 317 rows.
+
+
+r_EntrXAro =
+
+    1.0000   -0.3580
+   -0.3580    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_EntrXVal =
+
+    1.0000    0.1956
+    0.1956    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.0005
+    0.0005    1.0000
+
+
+r_ConXEntr =
+
+    1.0000    0.7150
+    0.7150    1.0000
+
+
+p_ConXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_ConXSize =
+
+    1.0000    0.7034
+    0.7034    1.0000
+
+
+p_ConXSize =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_SizeXEntr =
+
+    1.0000    0.6224
+    0.6224    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\EmoMadrid_Sports_Images.xlsx
+Warning: Column headers from the file were modified to make them valid MATLAB identifiers before creating
+variable names for the table. The original column headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table variable names. 
+
+t =
+
+  50×28 table
+
+      EMCODE       Category     NValence    MeanValence    ValenceSD    NArousal    MeanArousal    ArousalSD      Valence_2C        Valence_3C      Arousal_2C     Arousal_3C     QuadranteEmozionale    AverageLuminosity    SizeInBytes    Contrast    Colorfulness    FeatureCongestion    SubbandEntropy    SF768_384    SF384_192    SF192_96     SF96_48       SF48_24       SF24_12        SF12_6        SF6_3       SFresidual
+    __________    __________    ________    ___________    _________    ________    ___________    _________    ______________    ______________    __________    ____________    ___________________    _________________    ___________    ________    ____________    _________________    ______________    _________    _________    ________    __________    __________    __________    __________    __________    __________
+
+    {'EM0046'}    {'Sports'}      126          1.3571       0.78449       126               1        1.1524     {''positiva''}    {''positiva''}    {''alto''}    {''alto''  }     {''excitement''}           101.26            351.64       0.058679       82.486             2.478              2.4002         99.259       672.17       3341.2          11334         41573    1.3745e+05    7.5924e+05    3.3538e+06    7.2856e+08
+    {'EM0057'}    {'Sports'}      125           1.376       0.71464       126         0.48413        1.3608     {''positiva''}    {''positiva''}    {''alto''}    {''neutro''}     {''excitement''}           172.05            400.64        0.19648       35.487            3.0923              3.6468          329.9       1246.8       2718.5         9860.8         50235    4.1786e+05    1.9419e+06    1.1758e+07     2.045e+09
+    {'EM0114'}    {'Sports'}      105         0.62857       0.85774       104          1.1635       0.88252     {''positiva''}    {''positiva''}    {''alto''}    {''alto''  }     {''excitement''}            87.35            209.98        0.25201       27.913             2.853              2.6116         298.68       1771.4        11193          55354    3.2389e+05    2.1638e+06    6.9315e+06      4.17e+07    5.5284e+08
+    {'EM0137'}    {'Sports'}      104           0.875       0.75925       104         0.14423        1.1776     {''positiva''}    {''positiva''}    {''alto''}    {''neutro''}     {''excitement''}            96.58             485.6        0.24729       49.205            3.2989               3.243         478.15       2230.4       7579.9          31902    1.5074e+05    7.9917e+05    7.0423e+06    5.4294e+07    6.8779e+08
+    {'EM0142'}    {'Sports'}      105          1.3143       0.75082       103          1.5243       0.83835     {''positiva''}    {''positiva''}    {''alto''}    {''alto''  }     {''excitement''}           169.52            345.74        0.26895       24.847            3.7033              4.1048         294.95       1661.6       8424.8          45464    2.9247e+05    1.6763e+06    1.3506e+07    6.8825e+07    2.0268e+09
+    {'EM0161'}    {'Sports'}      125            0.76       0.78699       126          1.2698       0.67424     {''positiva''}    {''positiva''}    {''alto''}    {''alto''  }     {''excitement''}            84.63            235.81        0.24769       37.566             2.867              2.7336         143.49       1392.8       8886.2          49839    2.9706e+05    1.7328e+06    8.5791e+06    4.6211e+07    5.6003e+08
+
+        :             :            :             :             :           :             :             :              :                 :               :              :                   :                     :                 :            :             :                  :                  :               :            :           :            :             :             :             :             :             :     
+
+    {'EM0804'}    {'Sports'}       95         0.50526       0.74196        92         0.96739       0.68662     {''positiva''}    {''neutra''  }    {''alto''}    {''alto''  }     {''excitement''}            86.56            413.29        0.17725       17.747            1.9168              2.5689          72.81       541.57       4264.5          24261    1.5946e+05    9.0837e+05    7.8629e+06    2.5722e+07    5.0789e+08
+    {'EM0925'}    {'Sports'}      110        -0.47273       0.93563       110             1.4       0.59354     {''negativa''}    {''neutra''  }    {''alto''}    {''alto''  }     {''distress''  }           106.02            592.35        0.25089       39.561            3.5768              3.2881         640.46       2515.5        11942          65543    5.6992e+05    2.5523e+06      1.21e+07    3.0458e+07    8.7325e+08
+    {'EM0929'}    {'Sports'}      109         -1.0092       0.68712       111          1.0811       0.58984     {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            71.76            663.04        0.32222        95.83            3.6166              3.5007         329.35       2458.1       9681.8          48845    2.7902e+05    3.9118e+06     1.205e+07    1.2595e+08    6.7498e+08
+    {'EM0930'}    {'Sports'}      111         -1.2342       0.76223       110          1.5636       0.51629     {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            84.07            600.02          0.264        39.03             3.208              3.2798         333.52       1990.4        13848     1.0148e+05    6.4092e+05    3.1599e+06    1.6645e+07    3.9327e+07    4.6063e+08
+    {'EM0931'}    {'Sports'}      111         -1.5135       0.86197       112          1.7054       0.51357     {''negativa''}    {''negativa''}    {''alto''}    {''alto''  }     {''distress''  }            85.41            615.52        0.32015       36.523            4.5171              3.6151         526.63       4257.4        21333     1.1488e+05    4.1845e+05    3.6765e+06    1.6301e+07    1.1335e+08    5.3341e+08
+    {'EM0932'}    {'Sports'}      111         0.78378       0.79092       112         0.86607       0.60769     {''positiva''}    {''positiva''}    {''alto''}    {''alto''  }     {''excitement''}            92.22            585.67        0.17984       56.261            3.0744              3.0854         209.57         1308       6459.2          34669    2.3457e+05    9.7763e+05    3.7389e+06    1.9728e+07    7.5742e+08
+
+	Display all 50 rows.
+
+
+r_EntrXAro =
+
+    1.0000   -0.1021
+   -0.1021    1.0000
+
+
+p_EntrXAro =
+
+    1.0000    0.4805
+    0.4805    1.0000
+
+
+r_EntrXVal =
+
+    1.0000    0.0691
+    0.0691    1.0000
+
+
+p_EntrXVal =
+
+    1.0000    0.6337
+    0.6337    1.0000
+
+
+r_ConXEntr =
+
+    1.0000    0.7531
+    0.7531    1.0000
+
+
+p_ConXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_ConXSize =
+
+    1.0000    0.5516
+    0.5516    1.0000
+
+
+p_ConXSize =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_SizeXEntr =
+
+    1.0000    0.5264
+    0.5264    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0001
+    0.0001    1.0000
+
+Now reading C:\Users\chiara\Documents\formazione\laurea informatica\III anno\tesi EmoMadrid\Index_x_Categoria\index_con aggiunte.xlsx
+Error using readtable
+Chart sheets are not supported.
+
+Error in pearson_1069_entropy (line 17)
+t = readtable(fullFileName)
+ 
+>> 
