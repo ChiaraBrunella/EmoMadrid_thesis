@@ -609,6 +609,40 @@ Error using readtable
 Chart sheets are not supported.
 
 Error in pearson_1069_entropy (line 17)
-t = readtable(fullFileName)
+t = readtable(fullFileName) 
+
+index globale (1073):
  
->> 
+>> r_SizeXEntr =
+
+    1.0000    0.5564
+    0.5564    1.0000
+
+
+p_SizeXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+r_ConXEntr =
+
+    1.0000    0.6759
+    0.6759    1.0000
+
+
+p_ConXEntr =
+
+    1.0000    0.0000
+    0.0000    1.0000
+
+
+r_ConXSize =
+
+    1.0000    0.6123
+    0.6123    1.0000
+
+
+p_ConXSize =
+
+    1.0000    0.0000
+    0.0000    1.0000
